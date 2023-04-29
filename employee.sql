@@ -32,7 +32,18 @@ SELECT eName,job,sal FROM Empl WHERE not job='MANAGER';								-- query to displ
 SELECT eName FROM Empl WHERE eName LIKE '__A%';										-- query to display the name of employee whose name contains “A” as third alphabet
 SELECT eName FROM Empl WHERE eName LIKE '%T';										-- query to display the name of employee whose name contains “T” as last alphabet
 SELECT eNAme FROM Empl WHERE eName LIKE 'M%L';										-- query to display the name of employee whose name contains ”M” as First and “L” as third alphabet
-SELECT comm,CASE WHEN comm IS NULL THEN 'Not Given' else 'given' END FROM EMPL; 	-- query to display details of employs with the text “Not given”, if commission is null
+SELECT comm,CASE WHEN comm IS NULL THEN 'Not Given' else 'given' END AS EmpStatus FROM EMPL; 	-- query to display details of employs with the text “Not given”, if commission is null
+
+
+
+
+SELECT eName from empl where eName like '%a%';
+SELECT eName from empl where eName like 'a%a';
+
+
+
+
+
 
 
 
