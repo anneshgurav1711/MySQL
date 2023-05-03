@@ -59,7 +59,7 @@ srNo_pk int not null,
 studentName varchar(20),
 facultyCode_fk int,
 primary key(srNo_pk),
-foreign key(facultyCode_fk) references courseTable(srNo)
+foreign key(facultyCode_fk) references courseTable(srNo)           -- foreign key
 );
 
 SELECT * FROM students;

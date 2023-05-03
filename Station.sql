@@ -95,4 +95,3 @@ SELECT min(cost) FROM customerrecords;
 SELECT max(cost) FROM customerrecords;
 
 
-
