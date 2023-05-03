@@ -34,8 +34,8 @@ foreign key(serviceTypeId) references servicestation(sr_No)
 );
 
 DROP TABLE customerrecords;
-
 SELECT * FROM customerrecords;
+
 -- insert 30 records in customerRecords for 3 diffrent months (10 for each month)
 INSERT INTO customerrecords values(1, 'Honda', 'John Smith', 'Brake pad replacement', '2023-01-05', '2023-01-06', 1, 'Bob Johnson', '555-4321', 200.00, 1);
 INSERT INTO customerrecords values(2, 'Toyota', 'Amy Lee', 'Oil change', '2023-01-07', '2023-01-07', 1, 'Tom Wilson', '555-8765', 50.00, 2);
